@@ -2,9 +2,11 @@
 node_modules
 /dist
 
-# local env files
+# local env files (秘密情報をコミットしない)
+.env
 .env.local
 .env.*.local
+*.local
 
 # Log files
 npm-debug.log*
