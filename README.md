@@ -1,29 +1,29 @@
 # vue_test
 
-## Project setup
+Vue 3 + Vite。Node.js 20.19 以上(または 22.12 以上)が必要です。
+
+## セットアップ
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## 開発サーバー
 ```
-npm run serve
+npm run dev
 ```
+http://localhost:8080 で起動します(ローカルからのみアクセス可)。
 
-### Compiles and minifies for production
+## 本番ビルド
 ```
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
+## Lint
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 依存パッケージの脆弱性チェック
+```
+npm audit
+```
